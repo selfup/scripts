@@ -4,6 +4,10 @@ Useful scripts
 
 ## Download Options
 
+#### Clone the GitHub repo
+
+`git clone https://github.com/selfup/scripts`
+
 #### Clone the GitLab repo
 
 `git clone https://gitlab.com/selfup/scripts`
