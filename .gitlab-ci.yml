@@ -1,7 +1,7 @@
 stages:
   - build
 
-release:
+scripts:
   only:
     refs:
       - master
@@ -12,6 +12,7 @@ release:
 
   script:
     - chmod +x *.sh
+    - rm -rf .git
 
   artifacts:
     paths:
