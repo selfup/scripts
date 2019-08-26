@@ -12,7 +12,7 @@ scripts:
 
   script:
     - chmod +x *.sh
-    - rm -rf .git
+    - rm -rf .git .gitlab-ci.yml
 
   artifacts:
     paths:
