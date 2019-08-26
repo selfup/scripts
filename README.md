@@ -2,23 +2,23 @@
 
 Useful scripts
 
-## Download
+## Download Options
 
-#### Clone this repo
+#### Clone the GitLab repo
 
 `git clone https://gitlab.com/selfup/scripts`
 
-#### Direct Download Link
+#### Direct Download Link (zip)
 
 https://gitlab.com/selfup/scripts/-/jobs/artifacts/master/download?job=scripts
 
-#### cURL
+#### cURL (zip)
 
 ```bash
 curl -L https://gitlab.com/selfup/scripts/-/jobs/artifacts/master/download?job=scripts > scripts.zip
 ```
 
-#### wget
+#### wget (zip)
 
 ```bash
 wget https://gitlab.com/selfup/scripts/-/jobs/artifacts/master/download?job=scripts -O scripts.zip
