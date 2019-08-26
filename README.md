@@ -24,4 +24,7 @@ curl -L https://gitlab.com/selfup/scripts/-/jobs/artifacts/master/download?job=s
 wget https://gitlab.com/selfup/scripts/-/jobs/artifacts/master/download?job=scripts -O scripts.zip
 ```
 
-1. Unzip `scripts.zip`
+Now Unzip `scripts.zip`
+
+- Linux/macOS `unzip scripts.zip`
+- Windows use File Explorer/7zip
