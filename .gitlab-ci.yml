@@ -1,0 +1,18 @@
+stages:
+  - build
+
+release:
+  only:
+    refs:
+      - master
+
+  stage: build
+
+  image: alpine
+
+  script:
+    - chmod +x *.sh
+
+  artifacts:
+    paths:
+      - .
